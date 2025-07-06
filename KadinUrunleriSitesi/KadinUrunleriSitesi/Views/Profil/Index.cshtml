@@ -1,0 +1,98 @@
+﻿@model KadinUrunleriSitesi.Models.Kullanicilar
+@{
+    ViewData["Title"] = "Profilim";
+    var urunler = ViewBag.Urunler as List<KadinUrunleriSitesi.Models.Urunler>;
+    var arkadaslar = ViewBag.Arkadaslar as List<KadinUrunleriSitesi.Models.Kullanicilar>;
+}
+
+<div class="container mt-5">
+    <!-- Kullanıcı Bilgileri -->
+    <div class="card shadow-lg mx-auto mb-5" style="max-width: 700px; border-radius: 20px;">
+        <div class="card-body text-center">
+            <img src="@(!string.IsNullOrEmpty(Model.ProfilFotoUrl) ? Model.ProfilFotoUrl : "/images/default-profile.png")"
+                 class="rounded-circle border mb-3"
+                 width="150" height="150" style="object-fit: cover;" />
+
+            <h3 class="fw-bold text-dark">@Model.AdSoyad</h3>
+            <p class="text-muted"><i class="bi bi-envelope"></i> @Model.Email</p>
+            <p class="text-muted"><i class="bi bi-calendar-event"></i> Kayıt: @(Model.KayitTarihi?.ToString("dd.MM.yyyy") ?? "Bilinmiyor")</p>
+
+            <div class="d-flex justify-content-center gap-3 my-3">
+                <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="bi bi-whatsapp"></i></a>
+            </div>
+
+            <div class="d-flex justify-content-center gap-3">
+                <a asp-action="Duzenle" class="btn btn-outline-primary"><i class="bi bi-pencil-square me-1"></i> Profili Düzenle</a>
+                <a href="/" class="btn btn-outline-dark"><i class="bi bi-house-door me-1"></i> Anasayfa</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Arkadaşlarım -->
+    @if (arkadaslar != null && arkadaslar.Any())
+    {
+        <h4 class="mb-3 text-secondary">Arkadaşlarım</h4>
+        <div class="row g-3 mb-5">
+            @foreach (var ark in arkadaslar)
+            {
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <img src="@(!string.IsNullOrEmpty(ark.ProfilFotoUrl) ? ark.ProfilFotoUrl : "/images/default-profile.png")"
+                                 class="rounded-circle mb-2" width="80" height="80" style="object-fit: cover;" />
+                            <h6 class="mb-0">@ark.AdSoyad</h6>
+                            <small class="text-muted">@ark.Email</small>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <!-- Eklediğim Ürünler -->
+    @if (urunler != null && urunler.Any())
+    {
+        <h4 class="mb-3 text-secondary">Eklediğim Ürünler</h4>
+        <div class="row g-4">
+            @foreach (var urun in urunler)
+            {
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@urun.UrunId">
+                            <img src="@urun.ResimUrl" class="card-img-top" style="height: 220px; object-fit: cover;" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-pink">@urun.UrunAdi</h5>
+                            <p class="card-text text-muted">
+                                @((urun.Aciklama?.Length > 80) ? urun.Aciklama.Substring(0, 77) + "..." : urun.Aciklama)
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white text-end border-0">
+                            <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@urun.UrunId"
+                               class="btn btn-sm btn-outline-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center">Henüz ürün eklemediniz.</div>
+    }
+</div>
+
+<style>
+    .text-pink {
+        color: #e91e63;
+    }
+
+    .btn-outline-secondary:hover,
+    .btn-outline-primary:hover,
+    .btn-outline-dark:hover {
+        opacity: 0.9;
+    }
+</style>

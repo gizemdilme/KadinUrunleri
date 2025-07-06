@@ -1,0 +1,61 @@
+@model IEnumerable<KadinUrunleriSitesi.Models.Urunler>
+
+@{
+    ViewData["Title"] = "Ürünler";
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4" style="color:#c2185b;">Ürünlerim</h1>
+
+    <div class="text-center mb-4">
+        <a class="btn btn-pink rounded-pill px-4 py-2 shadow-sm fw-semibold" asp-action="Create">
+            <i class="bi bi-plus-circle me-1"></i> Yeni Ürün Ekle
+        </a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card shadow-sm h-100 border-0 rounded-4">
+                    <img src="@item.ResimUrl" class="card-img-top rounded-top-4" style="height: 200px; object-fit: cover;" alt="@item.UrunAdi">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">@item.UrunAdi</h5>
+                        <p class="card-text text-muted">@item.Aciklama</p>
+                        <p class="mb-1"><strong>Kategori:</strong> @item.Kategori?.KategoriAdi</p>
+                        <p class="mb-2"><strong>Eklenme:</strong> @item.EklenmeTarihi?.ToString("dd.MM.yyyy")</p>
+                        <div class="d-flex justify-content-between mt-3">
+                            <a class="btn btn-outline-primary btn-sm rounded-pill" asp-action="Edit" asp-route-id="@item.UrunId">
+                                <i class="bi bi-pencil"></i> Düzenle
+                            </a>
+                            <a class="btn btn-outline-info btn-sm rounded-pill" asp-action="Details" asp-route-id="@item.UrunId">
+                                <i class="bi bi-eye"></i> Detay
+                            </a>
+                            <a class="btn btn-outline-danger btn-sm rounded-pill" asp-action="Delete" asp-route-id="@item.UrunId">
+                                <i class="bi bi-trash"></i> Sil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .btn-pink {
+        background-color: #e91e63;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+        .btn-pink:hover {
+            background-color: #c2185b;
+            color: white;
+        }
+
+    body {
+        background-color: #fce4ec;
+        font-family: 'Segoe UI', sans-serif;
+    }
+</style>

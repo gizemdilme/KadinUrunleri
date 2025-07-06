@@ -1,0 +1,42 @@
+@model KadinUrunleriSitesi.Models.Kullanicilar
+
+@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+
+<h2>Kayıt Ol</h2>
+
+<form asp-action="Kayit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="AdSoyad"></label>
+        <input asp-for="AdSoyad" class="form-control" />
+        <span asp-validation-for="AdSoyad" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Sifre"></label>
+        <input asp-for="Sifre" type="password" class="form-control" />
+        <span asp-validation-for="Sifre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Profil Fotoğrafı</label>
+        <input type="file" name="ProfilFoto" class="form-control" />
+    </div>
+
+    <input type="hidden" asp-for="IsAdmin" value="false" />
+
+    <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,263 @@
+@model KadinUrunleriSitesi.Models.ViewModels.UrunDetayViewModel
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = Model.Urun.UrunAdi;
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow-sm mb-4" style="border-radius: 15px; border-color: #f8bbd0;">
+                <div class="card-header bg-white d-flex align-items-center p-3" style="border-bottom-color: #f8bbd0;">
+                    <div class="d-flex align-items-center">
+                        @if (!string.IsNullOrEmpty(Model.Urun.EkleyenKullanici.ProfilFotoUrl))
+                        {
+                            <img src="@Model.Urun.EkleyenKullanici.ProfilFotoUrl" alt="@Model.Urun.EkleyenKullanici.AdSoyad" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover;" />
+                        }
+                        else
+                        {
+                            <div class="rounded-circle me-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px; background-color: #f8bbd0;">
+                                <i class="fas fa-user text-white"></i>
+                            </div>
+                        }
+                        <div>
+                            <h6 class="mb-0">@Model.Urun.EkleyenKullanici.AdSoyad</h6>
+                            <small class="text-muted">@Model.Urun.Kategori.KategoriAdi</small>
+                        </div>
+                    </div>
+                    <div class="ms-auto">
+                        <small class="text-muted">@(Model.Urun.EklenmeTarihi?.ToString("dd.MM.yyyy") ?? "-")</small>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    @if (!string.IsNullOrEmpty(Model.Urun.ResimUrl))
+                    {
+                        <img src="@Model.Urun.ResimUrl" alt="@Model.Urun.UrunAdi" class="img-fluid" style="max-height: 500px; width: 100%; object-fit: contain;" />
+                    }
+                    else
+                    {
+                        <div class="bg-light d-flex align-items-center justify-content-center" style="height: 400px;">
+                            <span class="text-muted">Resim yok</span>
+                        </div>
+                    }
+                </div>
+
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="me-3">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                if (i <= Model.OrtalamaPuan)
+                                {
+                                    <i class="fas fa-star text-warning"></i>
+                                }
+                                else if (i - 0.5 <= Model.OrtalamaPuan)
+                                {
+                                    <i class="fas fa-star-half-alt text-warning"></i>
+                                }
+                                else
+                                {
+                                    <i class="far fa-star text-warning"></i>
+                                }
+                            }
+                            <span class="ms-2">(@Model.OrtalamaPuan.ToString("0.0")) - @Model.PuanSayisi kişi puan verdi</span>
+                        </div>
+                        <div class="ms-auto">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#ratingModal">
+                                <i class="fas fa-star me-1"></i> Puan Ver
+                            </button>
+                        </div>
+                    </div>
+
+                    <h4 class="card-title" style="color: #e91e63;">@Model.Urun.UrunAdi</h4>
+                    <p class="card-text">@Model.Urun.Aciklama</p>
+
+                    <div class="d-flex align-items-center mt-3 mb-2">
+                        <h5 class="mb-0">Yorumlar (@Model.Yorumlar.Count)</h5>
+                    </div>
+
+                    <form asp-action="YorumEkle" asp-controller="Home" method="post" enctype="multipart/form-data" class="mb-4">
+                        <input type="hidden" name="UrunId" value="@Model.Urun.UrunId" />
+                        <div class="mb-3">
+                            <textarea name="Icerik" class="form-control" rows="2" placeholder="Yorumunuzu yazın..." required></textarea>
+                        </div>
+                        <div class="d-flex">
+                            <div class="me-auto">
+                                <div class="input-group">
+                                    <label class="input-group-text" for="YorumResim">
+                                        <i class="fas fa-camera"></i>
+                                    </label>
+                                    <input type="file" name="YorumResim" class="form-control" id="YorumResim" accept="image/*" />
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary ms-2" style="background-color: #e91e63; border-color: #e91e63;">
+                                <i class="fas fa-paper-plane me-1"></i> Gönder
+                            </button>
+                        </div>
+                    </form>
+
+                    @if (Model.Yorumlar.Any())
+                    {
+                        <div class="comments-section">
+                            @foreach (var yorum in Model.Yorumlar)
+                            {
+                                <div class="comment mb-3 p-3" style="background-color: #fce4ec; border-radius: 10px;">
+                                    <div class="d-flex align-items-center mb-2">
+                                        @if (!string.IsNullOrEmpty(yorum.Kullanici.ProfilFotoUrl))
+                                        {
+                                            <img src="@yorum.Kullanici.ProfilFotoUrl" alt="@yorum.Kullanici.AdSoyad" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;" />
+                                        }
+                                        else
+                                        {
+                                            <div class="rounded-circle me-2 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; background-color: #e91e63;">
+                                                <i class="fas fa-user text-white" style="font-size: 0.8rem;"></i>
+                                            </div>
+                                        }
+                                        <div>
+                                            <h6 class="mb-0">@yorum.Kullanici.AdSoyad</h6>
+                                            <small class="text-muted">@(yorum.YorumTarihi?.ToString("dd.MM.yyyy HH:mm") ?? "-")</small>
+                                        </div>
+                                        @if (User.FindFirstValue("KullaniciID") == yorum.KullaniciId.ToString())
+                                        {
+                                            <div class="ms-auto">
+                                                <form asp-action="YorumSil" asp-controller="Home" method="post" onsubmit="return confirm('Bu yorumu silmek istediğinize emin misiniz?');">
+                                                    <input type="hidden" name="yorumId" value="@yorum.YorumId" />
+                                                    <input type="hidden" name="urunId" value="@Model.Urun.UrunId" />
+                                                    <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                        <i class="fas fa-trash"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        }
+                                    </div>
+                                    <p class="mb-2">@yorum.Icerik</p>
+                                    @if (!string.IsNullOrEmpty(yorum.YorumFotoUrl))
+                                    {
+                                        <div class="text-center mt-2">
+                                            <img src="@yorum.YorumFotoUrl" alt="Yorum Resmi" class="img-fluid rounded" style="max-height: 200px;" />
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-4 text-muted">
+                            <i class="fas fa-comment-slash fa-3x mb-3"></i>
+                            <p>Henüz yorum yapılmamış. İlk yorumu sen yap!</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ratingModal" tabindex="-1" aria-labelledby="ratingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #fce4ec;">
+                <h5 class="modal-title" id="ratingModalLabel">Ürünü Puanla</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <h4>@Model.Urun.UrunAdi</h4>
+                <p class="text-muted">Lütfen 1 ile 5 arasında bir puan verin</p>
+                <form asp-action="PuanVer" asp-controller="Home" method="post" id="ratingForm">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="urunId" value="@Model.Urun.UrunId" />
+                    <input type="hidden" name="puan" id="selectedRating" value="@Model.KullaniciPuani" />
+
+                    <div class="rating-stars my-4">
+                        <div class="d-flex justify-content-center align-items-center">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <div class="text-center mx-2 rating-container" data-rating="@i" style="cursor: pointer;">
+                                    <i class="@(i <= Model.KullaniciPuani ? "fas" : "far") fa-star fa-2x rating-star" data-rating="@i" style="color: #ffb400;"></i>
+                                    <div class="mt-1 rating-number"><strong>@i</strong></div>
+                                </div>
+                            }
+                        </div>
+                        <div class="mt-2">
+                            <span class="selected-rating-text">Seçilen Puan: <strong id="ratingText">@(Model.KullaniciPuani > 0 ? Model.KullaniciPuani.ToString() : "Seçilmedi")</strong></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="background-color: #e91e63; border-color: #e91e63;">
+                        Puanı Kaydet
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        
+        const modal = document.getElementById('ratingModal');
+        modal.addEventListener('shown.bs.modal', function () {
+            document.body.style.overflow = 'auto';
+        });
+        modal.addEventListener('hidden.bs.modal', function () {
+            document.body.style.overflow = '';
+        });
+
+        
+        document.querySelectorAll('.rating-container').forEach(container => {
+            container.addEventListener('mouseover', function () {
+                const rating = parseInt(this.getAttribute('data-rating'));
+                highlightStars(rating);
+            });
+
+            container.addEventListener('mouseout', function () {
+                const currentRating = parseInt(document.getElementById('selectedRating').value) || 0;
+                highlightStars(currentRating);
+            });
+
+            container.addEventListener('click', function () {
+                const rating = parseInt(this.getAttribute('data-rating'));
+                document.getElementById('selectedRating').value = rating;
+                document.getElementById('ratingText').textContent = rating;
+                highlightStars(rating);
+            });
+        });
+
+        document.querySelectorAll('.rating-star').forEach(star => {
+            star.addEventListener('click', function (e) {
+                e.stopPropagation();
+                const rating = parseInt(this.getAttribute('data-rating'));
+                document.getElementById('selectedRating').value = rating;
+                document.getElementById('ratingText').textContent = rating;
+                highlightStars(rating);
+            });
+        });
+
+        function highlightStars(rating) {
+            document.querySelectorAll('.rating-container').forEach(container => {
+                const containerRating = parseInt(container.getAttribute('data-rating'));
+                const star = container.querySelector('.rating-star');
+
+                if (containerRating <= rating) {
+                    star.classList.remove('far');
+                    star.classList.add('fas');
+                    container.querySelector('.rating-number').style.color = '#e91e63';
+                } else {
+                    star.classList.remove('fas');
+                    star.classList.add('far');
+                    container.querySelector('.rating-number').style.color = '';
+                }
+            });
+        }
+
+        document.getElementById('YorumResim').addEventListener('change', function (e) {
+            const file = e.target.files[0];
+            if (file) {
+                console.log('Image selected:', file.name);
+            }
+        });
+    </script>
+}

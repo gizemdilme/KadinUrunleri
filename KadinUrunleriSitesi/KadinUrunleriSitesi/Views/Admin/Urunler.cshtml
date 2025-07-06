@@ -1,0 +1,83 @@
+@model IEnumerable<KadinUrunleriSitesi.Models.Urunler>
+
+@{
+    ViewData["Title"] = "Ürün Yönetimi";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Ürün Yönetimi</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Dashboard</a></li>
+        <li class="breadcrumb-item active">Ürünler</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-box-open me-1"></i>
+            Ürün Listesi
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="urunlerTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Resim</th>
+                            <th>Ürün Adı</th>
+                            <th>Kategori</th>
+                            <th>Ekleyen</th>
+                            <th>Eklenme Tarihi</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var urun in Model)
+                        {
+                            <tr>
+                                <td>@urun.UrunId</td>
+                                <td>
+                                    @if (!string.IsNullOrEmpty(urun.ResimUrl))
+                                    {
+                                        <img src="@urun.ResimUrl" alt="@urun.UrunAdi" style="width: 50px; height: 50px; object-fit: cover;" />
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Resim yok</span>
+                                    }
+                                </td>
+                                <td>@urun.UrunAdi</td>
+                                <td>@urun.Kategori.KategoriAdi</td>
+                                <td>@urun.EkleyenKullanici.AdSoyad</td>
+                                <td>@(urun.EklenmeTarihi?.ToString("dd.MM.yyyy") ?? "-")</td>
+                                <td>
+                                    <a asp-controller="Admin" asp-action="UrunDetay" asp-route-id="@urun.UrunId" class="btn btn-info btn-sm">
+                                        <i class="fas fa-eye"></i> Görüntüle
+                                    </a>
+                                    <a asp-controller="Admin" asp-action="UrunDuzenle" asp-route-id="@urun.UrunId" class="btn btn-warning btn-sm">
+                                        <i class="fas fa-edit"></i> Düzenle
+                                    </a>
+                                    <a asp-controller="Admin" asp-action="UrunSil" asp-route-id="@urun.UrunId" class="btn btn-danger btn-sm">
+                                        <i class="fas fa-trash"></i> Sil
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#urunlerTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/tr.json'
+                }
+            });
+        });
+    </script>
+}

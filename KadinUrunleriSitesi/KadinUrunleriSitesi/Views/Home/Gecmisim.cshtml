@@ -1,0 +1,158 @@
+@model KadinUrunleriSitesi.Models.ViewModels.GecmisimViewModel
+
+@{
+    ViewData["Title"] = "Geçmişim";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4" style="color: #e91e63;">Geçmişim</h2>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs mb-4" id="gecmisTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="yorumlar-tab" data-bs-toggle="tab" data-bs-target="#yorumlar" type="button" role="tab" aria-controls="yorumlar" aria-selected="true">
+                        <i class="fas fa-comment me-1"></i> Yorumladığım Ürünler (@Model.Yorumlar.Count)
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="puanlar-tab" data-bs-toggle="tab" data-bs-target="#puanlar" type="button" role="tab" aria-controls="puanlar" aria-selected="false">
+                        <i class="fas fa-star me-1"></i> Puanladığım Ürünler (@Model.Puanlar.Count)
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="gecmisTabContent">
+                <!-- Yorumlar Tab -->
+                <div class="tab-pane fade show active" id="yorumlar" role="tabpanel" aria-labelledby="yorumlar-tab">
+                    @if (Model.Yorumlar.Any())
+                    {
+                        <div class="row">
+                            @foreach (var yorum in Model.Yorumlar)
+                            {
+                                <div class="col-md-6 mb-4">
+                                    <div class="card shadow-sm h-100" style="border-radius: 10px; border-color: #f8bbd0;">
+                                        <div class="card-header bg-white d-flex align-items-center" style="border-bottom-color: #f8bbd0;">
+                                            <div>
+                                                <h5 class="mb-0">
+                                                    <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@yorum.UrunId" class="text-decoration-none" style="color: #e91e63;">
+                                                        @yorum.Urun.UrunAdi
+                                                    </a>
+                                                </h5>
+                                                <small class="text-muted">@yorum.Urun.Kategori.KategoriAdi</small>
+                                            </div>
+                                            <div class="ms-auto">
+                                                <small class="text-muted">@(yorum.YorumTarihi?.ToString("dd.MM.yyyy HH:mm") ?? "-")</small>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="comment-content flex-grow-1">
+                                                <p class="card-text">@yorum.Icerik</p>
+                                                @if (!string.IsNullOrEmpty(yorum.YorumFotoUrl))
+                                                {
+                                                    <div class="comment-image-container text-center mt-2" style="height: 150px; overflow: hidden;">
+                                                        <img src="@yorum.YorumFotoUrl" alt="Yorum Resmi" class="img-fluid rounded" style="max-height: 150px; object-fit: contain;" />
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <div class="comment-image-container" style="height: 150px;"></div>
+                                                }
+                                            </div>
+                                            <div class="d-flex justify-content-end mt-auto">
+                                                <form asp-controller="Home" asp-action="YorumSil" method="post" onsubmit="return confirm('Bu yorumu silmek istediğinize emin misiniz?');">
+                                                    <input type="hidden" name="yorumId" value="@yorum.YorumId" />
+                                                    <input type="hidden" name="urunId" value="@yorum.UrunId" />
+                                                    <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                        <i class="fas fa-trash me-1"></i> Yorumu Sil
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5">
+                            <i class="fas fa-comment-slash fa-4x mb-3" style="color: #f8bbd0;"></i>
+                            <h3>Henüz yorum yapmamışsınız</h3>
+                            <p class="text-muted">Ürünlere yorum yaparak deneyimlerinizi paylaşabilirsiniz.</p>
+                        </div>
+                    }
+                </div>
+
+                <!-- Puanlar Tab -->
+                <div class="tab-pane fade" id="puanlar" role="tabpanel" aria-labelledby="puanlar-tab">
+                    @if (Model.Puanlar.Any())
+                    {
+                        <div class="row">
+                            @foreach (var puan in Model.Puanlar)
+                            {
+                                <div class="col-md-6 mb-4">
+                                    <div class="card shadow-sm h-100" style="border-radius: 10px; border-color: #f8bbd0;">
+                                        <div class="card-header bg-white d-flex align-items-center" style="border-bottom-color: #f8bbd0;">
+                                            <div>
+                                                <h5 class="mb-0">
+                                                    <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@puan.UrunId" class="text-decoration-none" style="color: #e91e63;">
+                                                        @puan.Urun.UrunAdi
+                                                    </a>
+                                                </h5>
+                                                <small class="text-muted">@puan.Urun.Kategori.KategoriAdi</small>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column">
+                                            <div class="rating-content flex-grow-1">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-3">
+                                                        @for (int i = 1; i <= 5; i++)
+                                                        {
+                                                            if (i <= puan.Puan)
+                                                            {
+                                                                <i class="fas fa-star text-warning"></i>
+                                                            }
+                                                            else
+                                                            {
+                                                                <i class="far fa-star text-warning"></i>
+                                                            }
+                                                        }
+                                                        <span class="ms-2 fw-bold">@puan.Puan / 5</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Empty space to match comment cards -->
+                                                <div style="height: 150px; margin-top: 15px;">
+                                                    <div class="text-center">
+                                                        <div class="mb-2" style="color: #e91e63;">
+                                                            <i class="fas fa-thumbs-up fa-3x"></i>
+                                                        </div>
+                                                        <p>Bu ürünü @puan.Puan/5 olarak değerlendirdiniz</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                                <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@puan.UrunId" class="btn btn-sm btn-outline-primary">
+                                                    <i class="fas fa-eye me-1"></i> Ürünü Görüntüle
+                                                </a>
+                                                <small class="text-muted">Puanlandı</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5">
+                            <i class="fas fa-star-half-alt fa-4x mb-3" style="color: #f8bbd0;"></i>
+                            <h3>Henüz ürün puanlamadınız</h3>
+                            <p class="text-muted">Ürünlere puan vererek değerlendirme yapabilirsiniz.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

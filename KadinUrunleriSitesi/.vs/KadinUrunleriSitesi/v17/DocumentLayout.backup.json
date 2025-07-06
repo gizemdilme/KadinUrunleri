@@ -1,0 +1,734 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\controllers\\urunlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\controllers\\urunlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\login\\kayit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\login\\kayit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\wwwroot\\images\\users\\admin-profile.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\wwwroot\\images\\users\\admin-profile.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\wwwroot\\images\\users\\user1-profile.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\wwwroot\\images\\users\\user1-profile.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\models\\kullanicilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\models\\kullanicilar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\kullaniciduzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\kullaniciduzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\kullanicidetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\kullanicidetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\urundetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\urundetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\kullanicilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\kullanicilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\controllers\\adminlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\controllers\\adminlerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\urunlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\urunlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\urunler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\urunler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\kategoriler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\kategoriler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\admin\\kategoriekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\admin\\kategoriekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\models\\adminler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\models\\adminler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\models\\kadinurunplatformucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\models\\kadinurunplatformucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\controllers\\kullanicilarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\controllers\\kullanicilarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\kategorilers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\kategorilers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\kategorilers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\kategorilers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\models\\yorumlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\models\\yorumlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\kullanicilars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\kullanicilars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\yorumlars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\yorumlars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\puanlars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\puanlars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\adminlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\adminlers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\login\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\login\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\controllers\\yorumlarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\controllers\\yorumlarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\migrations\\20250508124712_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\migrations\\20250508124712_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|c:\\users\\ist2-sft-005\\downloads\\kadinurunlerisitesi\\kadinurunlerisitesi\\kadinurunlerisitesi\\migrations\\20250508130224_test2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D0EBE7-9D65-4F89-95A3-9D5B88575BD5}|KadinUrunleriSitesi\\KadinUrunleriSitesi.csproj|solutionrelative:kadinurunlerisitesi\\migrations\\20250508130224_test2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KullaniciDetay.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\KullaniciDetay.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\KullaniciDetay.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\KullaniciDetay.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\KullaniciDetay.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T15:36:29.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250508124712_initial.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Migrations\\20250508124712_initial.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Migrations\\20250508124712_initial.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Migrations\\20250508124712_initial.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Migrations\\20250508124712_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:47:12.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Kayit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Login\\Kayit.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Login\\Kayit.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Login\\Kayit.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Login\\Kayit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T12:23:28.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "user1-profile.jpg - Bitmap [3000x3000, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\user1-profile.jpg",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\wwwroot\\images\\users\\user1-profile.jpg",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\user1-profile.jpg - Bitmap [3000x3000, 24 bit, JPG]",
+              "RelativeToolTip": "KadinUrunleriSitesi\\wwwroot\\images\\users\\user1-profile.jpg - Bitmap [3000x3000, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-08T16:51:43.326Z",
+              "EditorCaption": " - Bitmap [3000x3000, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UrunlersController.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\UrunlersController.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Controllers\\UrunlersController.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\UrunlersController.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Controllers\\UrunlersController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAALkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:52:59.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAjwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:10:15.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\LoginController.cs*",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Controllers\\LoginController.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:21:03.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Services\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Services\\FileUploadService.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Services\\FileUploadService.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Services\\FileUploadService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:52:54.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Data\\SeedData.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Data\\SeedData.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:02:36.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "admin-profile.jpg - Bitmap [3000x3000, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\admin-profile.jpg",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\wwwroot\\images\\users\\admin-profile.jpg",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\admin-profile.jpg - Bitmap [3000x3000, 24 bit, JPG]",
+              "RelativeToolTip": "KadinUrunleriSitesi\\wwwroot\\images\\users\\admin-profile.jpg - Bitmap [3000x3000, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-08T16:51:41.159Z",
+              "EditorCaption": " - Bitmap [3000x3000, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UrunDetay.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\UrunDetay.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\UrunDetay.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\UrunDetay.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\UrunDetay.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T15:05:30.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:09:48.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Kullanicilar.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Kullanicilar.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\Kullanicilar.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Kullanicilar.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\Kullanicilar.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T13:15:25.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KullaniciDuzenle.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\KullaniciDuzenle.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\KullaniciDuzenle.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\KullaniciDuzenle.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\KullaniciDuzenle.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwC0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T15:27:26.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Kullanicilar.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\Kullanicilar.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Models\\Kullanicilar.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\Kullanicilar.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Models\\Kullanicilar.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:44:17.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminlersController.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\AdminlersController.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Controllers\\AdminlersController.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\AdminlersController.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Controllers\\AdminlersController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:49:26.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Program.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Program.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Program.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:14:50.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\appsettings.Development.json",
+              "RelativeToolTip": "KadinUrunleriSitesi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T12:45:44.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T13:15:18.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "KategoriEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\KategoriEkle.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\KategoriEkle.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\KategoriEkle.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\KategoriEkle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T13:15:19.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Kategoriler.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Kategoriler.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\Kategoriler.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Kategoriler.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\Kategoriler.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T13:15:24.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Urunlers\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Urunlers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Urunlers\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Urunlers\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAApwCwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:17:34.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KullanicilarsController.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\KullanicilarsController.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Controllers\\KullanicilarsController.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\KullanicilarsController.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Controllers\\KullanicilarsController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAADwv2IAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:51:12.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAADwv0IAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T19:12:43.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Urunler.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Urunler.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Admin\\Urunler.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Admin\\Urunler.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Admin\\Urunler.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T13:15:26.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Adminler.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\Adminler.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Models\\Adminler.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\Adminler.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Models\\Adminler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:20:55.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KadinUrunPlatformuContext.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\KadinUrunPlatformuContext.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Models\\KadinUrunPlatformuContext.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\KadinUrunPlatformuContext.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Models\\KadinUrunPlatformuContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:25:14.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250508130224_test2.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Migrations\\20250508130224_test2.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Migrations\\20250508130224_test2.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Migrations\\20250508130224_test2.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Migrations\\20250508130224_test2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:02:24.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\appsettings.json",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\appsettings.json",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\appsettings.json",
+              "RelativeToolTip": "KadinUrunleriSitesi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T17:29:01.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Kategorilers\\Create.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Kategorilers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Kategorilers\\Create.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Kategorilers\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:57:41.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T15:57:49.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Kullanicilars\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Kullanicilars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Kullanicilars\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Kullanicilars\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:24:01.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T16:17:39.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Kategorilers\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Kategorilers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Kategorilers\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Kategorilers\\Index.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwv0YAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:10:56.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Yorumlars\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Yorumlars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Yorumlars\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Yorumlars\\Index.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAADwv18AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:15:00.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Yorumlar.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\Yorumlar.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Models\\Yorumlar.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Models\\Yorumlar.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Models\\Yorumlar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T19:01:48.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Puanlars\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Puanlars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Puanlars\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Puanlars\\Index.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAADwv4MAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:13:38.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Giris.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Login\\Giris.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Login\\Giris.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Login\\Giris.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Login\\Giris.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T13:15:14.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T17:54:37.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Adminlers\\Index.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\Adminlers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\Adminlers\\Index.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\Adminlers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:39:02.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:12:18.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "YorumlarsController.cs",
+              "DocumentMoniker": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\YorumlarsController.cs",
+              "RelativeDocumentMoniker": "KadinUrunleriSitesi\\Controllers\\YorumlarsController.cs",
+              "ToolTip": "C:\\Users\\IST2-SFT-005\\Downloads\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\Controllers\\YorumlarsController.cs",
+              "RelativeToolTip": "KadinUrunleriSitesi\\Controllers\\YorumlarsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:54:11.076Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

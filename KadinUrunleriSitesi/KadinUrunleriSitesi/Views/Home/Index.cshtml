@@ -1,0 +1,143 @@
+@model KadinUrunleriSitesi.Models.ViewModels.FeedViewModel
+
+@{
+    ViewData["Title"] = "Pembe Sözlük";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+           
+            @if (Model.Urunler.Any())
+            {
+                @foreach (var item in Model.Urunler)
+                {
+                    <div class="card shadow-sm mb-4" style="border-radius: 15px; border-color: #f8bbd0;">
+                        <!-- Product Header -->
+                        <div class="card-header bg-white d-flex align-items-center p-3" style="border-bottom-color: #f8bbd0;">
+                            <div class="d-flex align-items-center">
+                                @if (!string.IsNullOrEmpty(item.EkleyenKullaniciProfilFoto))
+                                {
+                                    <img src="@item.EkleyenKullaniciProfilFoto" alt="@item.EkleyenKullaniciAdi" 
+                                         class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover;" />
+                                }
+                                else
+                                {
+                                    <div class="rounded-circle me-2 d-flex align-items-center justify-content-center" 
+                                         style="width: 40px; height: 40px; background-color: #f8bbd0;">
+                                        <i class="fas fa-user text-white"></i>
+                                    </div>
+                                }
+                                <div>
+                                    <h6 class="mb-0">@item.EkleyenKullaniciAdi</h6>
+                                </div>
+                            </div>
+                            <div class="ms-auto">
+                                <small class="text-muted">@item.EklenmeTarihi.ToString("dd.MM.yyyy")</small>
+                            </div>
+                        </div>
+                        
+                        
+                        <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@item.UrunId" class="text-decoration-none">
+                            @if (!string.IsNullOrEmpty(item.ResimUrl))
+                            {
+                                <img src="@item.ResimUrl" alt="@item.UrunAdi" class="img-fluid" style="max-height: 500px; width: 100%; object-fit: contain;" />
+                            }
+                            else
+                            {
+                                <div class="bg-light d-flex align-items-center justify-content-center" style="height: 400px;">
+                                    <span class="text-muted">Resim yok</span>
+                                </div>
+                            }
+                        </a>
+                        
+                        
+                        <div class="card-body">
+                            
+                            <div class="d-flex align-items-center mb-2">
+                                <div>
+                                    @for (int i = 1; i <= 5; i++)
+                                    {
+                                        if (i <= item.OrtalamaPuan)
+                                        {
+                                            <i class="fas fa-star text-warning"></i>
+                                        }
+                                        else if (i - 0.5 <= item.OrtalamaPuan)
+                                        {
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                        }
+                                        else
+                                        {
+                                            <i class="far fa-star text-warning"></i>
+                                        }
+                                    }
+                                    <span class="ms-2">(@item.OrtalamaPuan.ToString("0.0")) - @item.PuanSayisi kişi puan verdi</span>
+                                </div>
+                            </div>
+                            
+                            <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@item.UrunId" class="text-decoration-none">
+                                <h4 class="card-title" style="color: #e91e63;">@item.UrunAdi</h4>
+                            </a>
+                            <p class="card-text">@(item.Aciklama?.Length > 150 ? item.Aciklama.Substring(0, 147) + "..." : item.Aciklama)</p>
+                            
+                            <!-- Comments Preview -->
+                            @if (item.SonYorumlar.Any())
+                            {
+                                <div class="comments-preview mt-3 mb-2">
+                                    @foreach (var yorum in item.SonYorumlar.Take(2))
+                                    {
+                                        <div class="d-flex mb-2">
+                                            <strong class="me-2">@yorum.KullaniciAdi:</strong>
+                                            <span>@(yorum.Icerik?.Length > 50 ? yorum.Icerik.Substring(0, 47) + "..." : yorum.Icerik)</span>
+                                        </div>
+                                    }
+                                    @if (item.YorumSayisi > 2)
+                                    {
+                                        <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@item.UrunId" class="text-decoration-none">
+                                            <small>Tüm @item.YorumSayisi yorumu gör...</small>
+                                        </a>
+                                    }
+                                </div>
+                            }
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="btn-group">
+                                    <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@item.UrunId" class="btn btn-sm btn-outline-secondary">
+                                        <i class="fas fa-comment me-1"></i> Yorum Yap
+                                    </a>
+                                    <a asp-controller="Home" asp-action="UrunDetay" asp-route-id="@item.UrunId" class="btn btn-sm btn-outline-secondary">
+                                        <i class="fas fa-star me-1"></i> Puan Ver
+                                    </a>
+                                </div>
+                                <small class="text-muted">@item.YorumSayisi yorum</small>
+                            </div>
+                        </div>
+                    </div>
+                }
+                
+                <!-- Pagination -->
+                @if (Model.TotalPages > 1)
+                {
+                    <nav aria-label="Page navigation" class="mt-4">
+                        <ul class="pagination justify-content-center">
+                            @for (int i = 1; i <= Model.TotalPages; i++)
+                            {
+                                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                                    <a class="page-link" asp-action="Index" asp-route-page="@i" style="@(i == Model.CurrentPage ? "background-color: #e91e63; border-color: #e91e63;" : "")">@i</a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                }
+            }
+            else
+            {
+                <div class="text-center py-5">
+                    <i class="fas fa-box-open fa-4x mb-3" style="color: #f8bbd0;"></i>
+                    <h3>Henüz ürün eklenmemiş</h3>
+                    <p class="text-muted">İlk ürünü ekleyen sen ol!</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

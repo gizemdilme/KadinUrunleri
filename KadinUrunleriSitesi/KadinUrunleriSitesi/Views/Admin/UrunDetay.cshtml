@@ -1,0 +1,97 @@
+@model KadinUrunleriSitesi.Models.Urunler
+
+@{
+    ViewData["Title"] = "Ürün Detay";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid px-4">
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-box-open me-1"></i>
+            @Model.UrunAdi - Detay
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="mb-4">@Model.UrunAdi</h4>
+                    @if (!string.IsNullOrEmpty(Model.ResimUrl))
+                    {
+                        <img src="@Model.ResimUrl" alt="@Model.UrunAdi" class="img-fluid rounded" style="max-width: 500px; height: auto;" />
+                    }
+                    else
+                    {
+                        <p class="text-muted">Ürün resmi yok</p>
+                    }
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ürün Detayları</h5>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-4">Kategori</dt>
+                                <dd class="col-sm-8">@Model.Kategori.KategoriAdi</dd>
+                                
+                                <dt class="col-sm-4">Ekleyen</dt>
+                                <dd class="col-sm-8">@Model.EkleyenKullanici.AdSoyad</dd>
+                                
+                                <dt class="col-sm-4">Eklenme Tarihi</dt>
+                                <dd class="col-sm-8">@Model.EklenmeTarihi</dd>
+                                
+                                <dt class="col-sm-4">Açıklama</dt>
+                                <dd class="col-sm-8">@Model.Aciklama</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a asp-action="UrunDuzenle" asp-route-id="@Model.UrunId" class="btn btn-warning">
+                            <i class="fas fa-edit me-1"></i> Düzenle
+                        </a>
+                        <a asp-action="UrunSil" asp-route-id="@Model.UrunId" class="btn btn-danger">
+                            <i class="fas fa-trash me-1"></i> Sil
+                        </a>
+                        <a asp-action="Urunler" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left me-1"></i> Listeye Dön
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        background-color: #f8f9fa;
+        border-radius: 12px;
+    }
+
+    .btn-warning {
+        background-color: #e91e63;
+        border: none;
+    }
+
+        .btn-warning:hover {
+            background-color: #d81b60;
+        }
+
+    .btn-danger {
+        background-color: #f44336;
+        border: none;
+    }
+
+        .btn-danger:hover {
+            background-color: #e53935;
+        }
+
+    .btn-secondary {
+        background-color: #9c27b0;
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #8e24aa;
+        }
+</style>

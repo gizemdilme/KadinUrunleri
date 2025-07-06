@@ -1,0 +1,190 @@
+@model KadinUrunleriSitesi.Models.Kullanicilar
+
+@{
+    ViewData["Title"] = "Kullanıcı Detayları";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Kullanıcı Detayları</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Dashboard</a></li>
+        <li class="breadcrumb-item"><a asp-action="Kullanicilar">Kullanıcılar</a></li>
+        <li class="breadcrumb-item active">@Model.AdSoyad</li>
+    </ol>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-user me-1"></i>
+                    Kullanıcı Bilgileri
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        @if (!string.IsNullOrEmpty(Model.ProfilFotoUrl))
+                        {
+                            <img src="@Url.Content(Model.ProfilFotoUrl)" alt="@Model.AdSoyad" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" />
+                        }
+                        else
+                        {
+                            <div class="bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto" style="width: 150px; height: 150px;">
+                                <i class="fas fa-user fa-5x"></i>
+                            </div>
+                        }
+                    </div>
+                    <div class="mb-3">
+                        <h5 class="card-title">@Model.AdSoyad</h5>
+                        <p class="card-text"><i class="fas fa-envelope me-2"></i>@Model.Email</p>
+                        <p class="card-text"><i class="fas fa-calendar me-2"></i>Kayıt: @(Model.KayitTarihi?.ToString("dd.MM.yyyy") ?? "-")</p>
+                        <p class="card-text">
+                            <i class="fas fa-user-shield me-2"></i>Yetki:
+                            <span class="@(Model.IsAdmin == true ? "text-success" : "text-secondary")">
+                                @(Model.IsAdmin == true ? "Admin" : "Kullanıcı")
+                            </span>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-box-open me-1"></i>
+                    Eklediği Ürünler (@Model.Urunlers.Count)
+                </div>
+                <div class="card-body">
+                    @if (Model.Urunlers.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Ürün Adı</th>
+                                        <th>Kategori</th>
+                                        <th>Eklenme Tarihi</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var urun in Model.Urunlers)
+                                    {
+                                        <tr>
+                                            <td>@urun.UrunAdi</td>
+                                            <td>@urun.Kategori.KategoriAdi</td>
+                                            <td>@(urun.EklenmeTarihi?.ToString("dd.MM.yyyy") ?? "-")</td>
+                                            <td>
+                                                <a asp-controller="Urunlers" asp-action="Details" asp-route-id="@urun.UrunId" class="btn btn-info btn-sm">
+                                                    <i class="fas fa-eye"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-muted">Bu kullanıcı henüz ürün eklememiş.</p>
+                    }
+                </div>
+            </div>
+            
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-comments me-1"></i>
+                    Yorumları (@Model.Yorumlars.Count)
+                </div>
+                <div class="card-body">
+                    @if (Model.Yorumlars.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Ürün</th>
+                                        <th>Yorum</th>
+                                        <th>Tarih</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var yorum in Model.Yorumlars)
+                                    {
+                                        <tr>
+                                            <td>@yorum.Urun.UrunAdi</td>
+                                            <td>@(yorum.Icerik.Length > 50 ? yorum.Icerik.Substring(0, 50) + "..." : yorum.Icerik)</td>
+                                            <td>@(yorum.YorumTarihi?.ToString("dd.MM.yyyy") ?? "-")</td>
+                                            <td>
+                                                <form asp-action="YorumSil" method="post" class="d-inline" onsubmit="return confirm('Bu yorumu silmek istediğinize emin misiniz?');">
+                                                    <input type="hidden" name="id" value="@yorum.YorumId" />
+                                                    <button type="submit" class="btn btn-danger btn-sm">
+                                                        <i class="fas fa-trash"></i>
+                                                    </button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-muted">Bu kullanıcı henüz yorum yapmamış.</p>
+                    }
+                </div>
+            </div>
+            
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-star me-1"></i>
+                    Puanlamaları (@Model.Puanlars.Count)
+                </div>
+                <div class="card-body">
+                    @if (Model.Puanlars.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Ürün</th>
+                                        <th>Puan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var puan in Model.Puanlars)
+                                    {
+                                        <tr>
+                                            <td>@puan.Urun.UrunAdi</td>
+                                            <td>
+                                                @for (int i = 1; i <= 5; i++)
+                                                {
+                                                    if (i <= puan.Puan)
+                                                    {
+                                                        <i class="fas fa-star text-warning"></i>
+                                                    }
+                                                    else
+                                                    {
+                                                        <i class="far fa-star text-warning"></i>
+                                                    }
+                                                }
+                                                (@puan.Puan)
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-muted">Bu kullanıcı henüz puan vermemiş.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

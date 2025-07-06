@@ -1,0 +1,275 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KadinUrunleriSitesi
+build_property.RootNamespace = KadinUrunleriSitesi
+build_property.ProjectDir = C:\Users\beyaz\Desktop\KadinUrunleriSitesi1\KadinUrunleriSitesi\KadinUrunleriSitesi\KadinUrunleriSitesi\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\beyaz\Desktop\KadinUrunleriSitesi1\KadinUrunleriSitesi\KadinUrunleriSitesi\KadinUrunleriSitesi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Adminlers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5sZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Adminlers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5sZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Adminlers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5sZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Adminlers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5sZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Adminlers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5sZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/KategoriDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2F0ZWdvcmlEdXplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/KategoriEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2F0ZWdvcmlFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/Kategoriler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2F0ZWdvcmlsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/KullaniciDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS3VsbGFuaWNpRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/KullaniciDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS3VsbGFuaWNpRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/Kullanicilar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS3VsbGFuaWNpbGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/UrunDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXJ1bkRldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/UrunDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXJ1bkR1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/Urunler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXJ1bmxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/UrunSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXJ1blNpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Admin/Yorumlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWW9ydW1sYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Home/Gecmisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZWNtaXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Home/UrunDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcnVuRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kategorilers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kategorilers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kategorilers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kategorilers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kategorilers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlsZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kullanicilars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbGFyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kullanicilars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbGFyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kullanicilars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbGFyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kullanicilars/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbGFyc1xEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kullanicilars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbGFyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Kullanicilars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbGFyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Login/Giris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cR2lyaXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Login/Kayit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cS2F5aXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Profil/Arkadaslar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsXEFya2FkYXNsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Profil/Bildirimler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsXEJpbGRpcmltbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Profil/Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsXERldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Profil/Duzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsXER1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Profil/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Profil/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Puanlars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVhbmxhcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Puanlars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVhbmxhcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Puanlars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVhbmxhcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Puanlars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVhbmxhcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Puanlars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVhbmxhcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Urunlers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Urunlers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Urunlers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Urunlers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Urunlers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJ1bmxlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Yorumlars/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Yorumlars/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Yorumlars/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Yorumlars/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Yorumlars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/beyaz/Desktop/KadinUrunleriSitesi1/KadinUrunleriSitesi/KadinUrunleriSitesi/KadinUrunleriSitesi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-emxkoqbe68

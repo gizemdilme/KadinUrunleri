@@ -1,0 +1,36 @@
+﻿@model List<Kullanicilar>
+
+@{
+    ViewData["Title"] = "Kullanıcı Ara";
+}
+
+<div class="container mt-4">
+    <h3 class="mb-3">Kullanıcı Ara</h3>
+
+    <form method="get" asp-action="Search">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" name="q" placeholder="Ad veya e-posta ara..." value="@Context.Request.Query["q"]" />
+            <button class="btn btn-outline-secondary" type="submit">Ara</button>
+        </div>
+    </form>
+
+    @if (Model != null && Model.Any())
+    {
+        <ul class="list-group">
+            @foreach (var user in Model)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>@user.AdSoyad</strong> - @user.Email
+                    </div>
+                    <a asp-action="Detay" asp-route-id="@user.KullaniciId" class="btn btn-sm btn-outline-primary">Profili Gör</a>
+                </li>
+            }
+        </ul>
+    }
+    else if (Context.Request.Query.ContainsKey("q"))
+
+    {
+        <div class="alert alert-warning">Sonuç bulunamadı.</div>
+    }
+</div>

@@ -1,0 +1,99 @@
+@model IEnumerable<KadinUrunleriSitesi.Models.Kategoriler>
+
+@{
+    ViewData["Title"] = "Kategori Yönetimi";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Kategori Yönetimi</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Dashboard</a></li>
+        <li class="breadcrumb-item active">Kategoriler</li>
+    </ol>
+
+    <div class="mb-4">
+        <a asp-action="KategoriEkle" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Yeni Kategori Ekle
+        </a>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-tags me-1"></i>
+            Kategori Listesi
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="kategorilerTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Kategori Adı</th>
+                            <th>Ürün Sayısı</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var kategori in Model)
+                        {
+                            <tr>
+                                <td>@kategori.KategoriId</td>
+                                <td>@kategori.KategoriAdi</td>
+                                <td>@kategori.Urunlers.Count</td>
+                                <td>
+                                    <a href="#" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal_@kategori.KategoriId">
+                                        <i class="fas fa-edit"></i> Düzenle
+                                    </a>
+                                    <form asp-action="KategoriSil" method="post" class="d-inline" onsubmit="return confirm('Bu kategoriyi silmek istediğinize emin misiniz? Bu işlem kategorideki tüm ürünleri etkileyebilir.');">
+                                        <input type="hidden" name="id" value="@kategori.KategoriId" />
+                                        <button type="submit" class="btn btn-danger btn-sm" @(kategori.Urunlers.Count > 0 ? "disabled title='Bu kategori silinemez çünkü ürün içeriyor.'" : "")>
+                                            <i class="fas fa-trash"></i> Sil
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+
+                            <!-- Edit Modal -->
+                            <div class="modal fade" id="editModal_@kategori.KategoriId" tabindex="-1" aria-labelledby="editModalLabel_@kategori.KategoriId" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="editModalLabel_@kategori.KategoriId">Kategori Düzenle</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <form asp-controller="Admin" asp-action="KategoriDuzenle" method="post">
+                                            <div class="modal-body">
+                                                <input type="hidden" name="KategoriId" value="@kategori.KategoriId" />
+                                                <div class="mb-3">
+                                                    <label for="KategoriAdi_@kategori.KategoriId" class="form-label">Kategori Adı</label>
+                                                    <input type="text" class="form-control" id="KategoriAdi_@kategori.KategoriId" name="KategoriAdi" value="@kategori.KategoriAdi" required />
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                                                <button type="submit" class="btn btn-primary">Kaydet</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#kategorilerTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/tr.json'
+                }
+            });
+        });
+    </script>
+}

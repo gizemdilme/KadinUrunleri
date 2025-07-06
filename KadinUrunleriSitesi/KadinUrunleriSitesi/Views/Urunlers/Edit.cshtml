@@ -1,0 +1,100 @@
+@model KadinUrunleriSitesi.Models.Urunler
+
+@{
+    ViewData["Title"] = "Ürün Düzenle";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4" style="color: #e91e63;">Ürün Düzenle</h2>
+    <hr />
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow-sm" style="border-radius: 15px; border-color: #f8bbd0;">
+            <div class="card-body p-4">
+                <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="UrunId" />
+                    <input type="hidden" asp-for="EkleyenKullaniciId" />
+                    <input type="hidden" asp-for="EklenmeTarihi" />
+                    <input type="hidden" asp-for="ResimUrl" />
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label asp-for="UrunAdi" class="form-label">Ürün Adı</label>
+                                <input asp-for="UrunAdi" class="form-control" required />
+                                <span asp-validation-for="UrunAdi" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label asp-for="KategoriId" class="form-label">Kategori</label>
+                                <select asp-for="KategoriId" class="form-control" asp-items="ViewBag.KategoriId" required>
+                                    <option value="">-- Kategori Seçin --</option>
+                                </select>
+                                <span asp-validation-for="KategoriId" class="text-danger"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label class="form-label">Ürün Resmi</label>
+                                <input type="file" name="UrunResim" id="UrunResim" class="form-control" accept="image/*" />
+                                <div class="form-text">Yeni bir resim yüklemek istiyorsanız seçin (JPG, PNG)</div>
+                            </div>
+                            
+                            <div class="mb-3 mt-2">
+                                <div id="currentImage" class="text-center @(string.IsNullOrEmpty(Model.ResimUrl) ? "d-none" : "")">
+                                    <p class="mb-1">Mevcut Resim:</p>
+                                    <img src="@Model.ResimUrl" alt="Ürün Resmi" class="img-fluid" style="max-height: 150px; border-radius: 8px;" />
+                                </div>
+                                <div id="imagePreview" class="text-center d-none mt-3">
+                                    <p class="mb-1">Yeni Resim:</p>
+                                    <img id="preview" src="#" alt="Önizleme" class="img-fluid" style="max-height: 150px; border-radius: 8px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label asp-for="Aciklama" class="form-label">Ürün Açıklaması</label>
+                        <textarea asp-for="Aciklama" class="form-control" rows="4" required></textarea>
+                        <span asp-validation-for="Aciklama" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                        <a asp-action="Edit" class="btn btn-outline-secondary me-md-2">İptal</a>
+                        <button type="submit" class="btn btn-primary" style="background-color: #e91e63; border-color: #e91e63;">Ürünü Güncelle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        // Image preview functionality
+        document.getElementById('UrunResim').addEventListener('change', function(e) {
+            var preview = document.getElementById('preview');
+            var previewContainer = document.getElementById('imagePreview');
+            var file = e.target.files[0];
+            
+            if (file) {
+                var reader = new FileReader();
+                
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    previewContainer.classList.remove('d-none');
+                }
+                
+                reader.readAsDataURL(file);
+            } else {
+                preview.src = '#';
+                previewContainer.classList.add('d-none');
+            }
+        });
+    </script>
+}

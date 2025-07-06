@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Kadın Ürünleri Platformu</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        :root {
+            --admin-primary: #e91e63;
+            --admin-primary-dark: #c2185b;
+            --admin-secondary: #f8bbd0;
+            --admin-light: #fce4ec;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #layoutSidenav {
+            display: flex;
+        }
+
+        #layoutSidenav_nav {
+            flex-basis: 225px;
+            flex-shrink: 0;
+            transition: transform .15s ease-in-out;
+            z-index: 1038;
+            transform: translateX(0);
+        }
+
+        #layoutSidenav_content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-width: 0;
+            flex-grow: 1;
+            min-height: calc(100vh - 56px);
+            margin-left: -225px;
+            padding-left: 225px;
+        }
+
+        .sb-sidenav {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            flex-wrap: nowrap;
+        }
+
+        .sb-sidenav-dark {
+            background-color: var(--admin-primary-dark);
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .sb-sidenav-menu {
+            flex-grow: 1;
+        }
+
+        .sb-sidenav-menu .nav {
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
+        .sb-sidenav-menu .nav-link {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 1rem;
+            color: rgba(255, 255, 255, 0.9);
+            position: relative;
+        }
+
+        .sb-sidenav-menu .nav-link:hover {
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .sb-sidenav-menu .nav-link.active {
+            color: #fff;
+            background-color: var(--admin-primary);
+        }
+
+        .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+        }
+
+        .sb-sidenav-footer {
+            padding: 0.75rem;
+            background-color: var(--admin-primary-dark);
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: var(--admin-primary) !important;
+        }
+
+        .admin-navbar {
+            background-color: #fff;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+        }
+
+        .card {
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+        }
+
+        .card-header {
+            font-weight: 500;
+        }
+
+        .table th {
+            background-color: var(--admin-light);
+        }
+    </style>
+</head>
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand admin-navbar">
+        <a class="navbar-brand ps-3" href="/Admin">Kadın Ürünleri Admin</a>
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0"></div>
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user fa-fw"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/">Ana Sayfaya Dön</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="/Login/Cikis">Çıkış Yap</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Ana Menü</div>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")" asp-controller="Admin" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Dashboard
+                        </a>
+                        <div class="sb-sidenav-menu-heading">Yönetim</div>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Kullanicilar" ? "active" : "")" asp-controller="Admin" asp-action="Kullanicilar">
+                            <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                            Kullanıcılar
+                        </a>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Urunler" ? "active" : "")" asp-controller="Admin" asp-action="Urunler">
+                            <div class="sb-nav-link-icon"><i class="fas fa-box-open"></i></div>
+                            Ürünler
+                        </a>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Yorumlar" ? "active" : "")" asp-controller="Admin" asp-action="Yorumlar">
+                            <div class="sb-nav-link-icon"><i class="fas fa-comments"></i></div>
+                            Yorumlar
+                        </a>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Kategoriler" || ViewContext.RouteData.Values["Action"].ToString() == "KategoriEkle" ? "active" : "")" asp-controller="Admin" asp-action="Kategoriler">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tags"></i></div>
+                            Kategoriler
+                        </a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Giriş yapan:</div>
+                    @User.Identity?.Name
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                @RenderBody()
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; Kadın Ürünleri Platformu @DateTime.Now.Year</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', event => {
+            const sidebarToggle = document.body.querySelector('#sidebarToggle');
+            if (sidebarToggle) {
+                sidebarToggle.addEventListener('click', event => {
+                    event.preventDefault();
+                    document.body.classList.toggle('sb-sidenav-toggled');
+                    localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
+                });
+            }
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

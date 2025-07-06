@@ -1,0 +1,39 @@
+﻿@model List<KadinUrunleriSitesi.Models.Arkadaslik>
+
+@{
+    ViewData["Title"] = "Arkadaşlık Bildirimleri";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center text-primary">Arkadaşlık Bildirimleri</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">Hiç bekleyen arkadaşlık isteğiniz yok.</div>
+    }
+    else
+    {
+        <ul class="list-group">
+            @foreach (var istek in Model)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>@istek.Gonderen.AdSoyad</strong> size arkadaşlık isteği gönderdi.
+                        <br />
+                        <small class="text-muted">@istek.Tarih.ToString("dd.MM.yyyy HH:mm")</small>
+                    </div>
+                    <div>
+                        <form method="post" asp-controller="Arkadaslik" asp-action="KabulEt" style="display: inline;">
+                            <input type="hidden" name="id" value="@istek.Id" />
+                            <button type="submit" class="btn btn-success btn-sm">Kabul Et</button>
+                        </form>
+                        <form method="post" asp-controller="Arkadaslik" asp-action="Reddet" style="display: inline;">
+                            <input type="hidden" name="id" value="@istek.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Reddet</button>
+                        </form>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+</div>

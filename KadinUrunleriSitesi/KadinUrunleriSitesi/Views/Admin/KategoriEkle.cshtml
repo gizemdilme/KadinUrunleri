@@ -1,0 +1,48 @@
+@model KadinUrunleriSitesi.Models.Kategoriler
+
+@{
+    ViewData["Title"] = "Yeni Kategori Ekle";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Yeni Kategori Ekle</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Dashboard</a></li>
+        <li class="breadcrumb-item"><a asp-action="Kategoriler">Kategoriler</a></li>
+        <li class="breadcrumb-item active">Yeni Kategori</li>
+    </ol>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-plus me-1"></i>
+                    Kategori Bilgileri
+                </div>
+                <div class="card-body">
+                    <form asp-action="KategoriEkle" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label asp-for="KategoriAdi" class="form-label">Kategori Adı</label>
+                            <input asp-for="KategoriAdi" class="form-control" required />
+                            <span asp-validation-for="KategoriAdi" class="text-danger"></span>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save me-1"></i> Kaydet
+                            </button>
+                            <a asp-action="Kategoriler" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-1"></i> Geri Dön
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

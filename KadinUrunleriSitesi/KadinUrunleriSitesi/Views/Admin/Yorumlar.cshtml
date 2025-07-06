@@ -1,0 +1,129 @@
+@model IEnumerable<KadinUrunleriSitesi.Models.Yorumlar>
+
+@{
+    ViewData["Title"] = "Yorum Yönetimi";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Yorum Yönetimi</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Dashboard</a></li>
+        <li class="breadcrumb-item active">Yorumlar</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-comments me-1"></i>
+            Yorum Listesi
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="yorumlarTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Kullanıcı</th>
+                            <th>Ürün</th>
+                            <th>Yorum</th>
+                            <th>Tarih</th>
+                            <th>Resim</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var yorum in Model)
+                        {
+                            <tr>
+                                <td>@yorum.YorumId</td>
+                                <td>@yorum.Kullanici.AdSoyad</td>
+                                <td>@yorum.Urun.UrunAdi</td>
+                                <td>@(yorum.Icerik.Length > 50 ? yorum.Icerik.Substring(0, 50) + "..." : yorum.Icerik)</td>
+                                <td>@(yorum.YorumTarihi?.ToString("dd.MM.yyyy") ?? "-")</td>
+                                <td>
+                                    @if (!string.IsNullOrEmpty(yorum.YorumFotoUrl))
+                                    {
+                                        <img src="@yorum.YorumFotoUrl" alt="Yorum Resmi" style="width: 50px; height: 50px; object-fit: cover;" />
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Resim yok</span>
+                                    }
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#yorumModal_@yorum.YorumId">
+                                        <i class="fas fa-eye"></i> Görüntüle
+                                    </a>
+                                    <form asp-action="YorumSil" method="post" class="d-inline" onsubmit="return confirm('Bu yorumu silmek istediğinize emin misiniz?');">
+                                        <input type="hidden" name="id" value="@yorum.YorumId" />
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash"></i> Sil
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+
+                            <!-- Yorum Detay Modal -->
+                            <div class="modal fade" id="yorumModal_@yorum.YorumId" tabindex="-1" aria-labelledby="yorumModalLabel_@yorum.YorumId" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="yorumModalLabel_@yorum.YorumId">Yorum Detayı</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h6>Kullanıcı Bilgileri</h6>
+                                                    <p><strong>Ad Soyad:</strong> @yorum.Kullanici.AdSoyad</p>
+                                                    <p><strong>Email:</strong> @yorum.Kullanici.Email</p>
+                                                    <p><strong>Kayıt Tarihi:</strong> @(yorum.Kullanici.KayitTarihi?.ToString("dd.MM.yyyy") ?? "-")</p>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h6>Ürün Bilgileri</h6>
+                                                    <p><strong>Ürün Adı:</strong> @yorum.Urun.UrunAdi</p>
+                                                    <p><strong>Kategori:</strong> @yorum.Urun.Kategori.KategoriAdi</p>
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <h6>Yorum</h6>
+                                            <p>@yorum.Icerik</p>
+                                            @if (!string.IsNullOrEmpty(yorum.YorumFotoUrl))
+                                            {
+                                                <div class="mt-3">
+                                                    <h6>Yorum Resmi</h6>
+                                                    <img src="@yorum.YorumFotoUrl" alt="Yorum Resmi" class="img-fluid" style="max-height: 300px;" />
+                                                </div>
+                                            }
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                                            <form asp-action="YorumSil" method="post" class="d-inline">
+                                                <input type="hidden" name="id" value="@yorum.YorumId" />
+                                                <button type="submit" class="btn btn-danger">
+                                                    <i class="fas fa-trash"></i> Sil
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#yorumlarTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/tr.json'
+                }
+            });
+        });
+    </script>
+}

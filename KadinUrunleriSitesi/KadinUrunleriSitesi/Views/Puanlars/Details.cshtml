@@ -1,0 +1,36 @@
+﻿@model KadinUrunleriSitesi.Models.Puanlar
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Puanlar</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Puan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Puan)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Kullanici)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Kullanici.KullaniciId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Urun)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Urun.UrunId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.PuanId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

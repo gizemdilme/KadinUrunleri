@@ -1,0 +1,39 @@
+﻿@model KadinUrunleriSitesi.Models.Kullanicilar
+
+@{
+    ViewData["Title"] = "Profili Düzenle";
+}
+
+<div class="container mt-4" style="max-width:700px;">
+    <h3 class="mb-4 text-center text-primary">Profili Düzenle</h3>
+
+    <form asp-action="Duzenle" method="post" enctype="multipart/form-data" class="card p-4 shadow-sm">
+        <input type="hidden" asp-for="KullaniciId" />
+
+        <div class="mb-3">
+            <label asp-for="AdSoyad" class="form-label">Ad Soyad</label>
+            <input asp-for="AdSoyad" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Sifre" class="form-label">Şifre</label>
+            <input asp-for="Sifre" class="form-control" type="password" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Profil Fotoğrafı</label><br />
+            @if (!string.IsNullOrEmpty(Model.ProfilFotoUrl))
+            {
+                <img src="@Model.ProfilFotoUrl" class="img-thumbnail mb-2" width="100" />
+            }
+            <input type="file" name="yeniFoto" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">Kaydet</button>
+    </form>
+</div>

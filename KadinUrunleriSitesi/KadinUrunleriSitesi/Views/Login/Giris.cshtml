@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Giriş Yap";
+}
+<h2 class="text-center text-pink my-4">Giriş Yap</h2>
+
+<div class="container d-flex justify-content-center">
+    <div class="card shadow-sm p-4" style="max-width: 400px; width: 100%; border-radius: 10px; background-color: #fce4ec;">
+        <form asp-action="Giris" method="post">
+            <div class="mb-3">
+                <label for="email" class="form-label text-pink">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label for="sifre" class="form-label text-pink">Şifre:</label>
+                <input type="password" id="sifre" name="sifre" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-pink w-100">Giriş Yap</button>
+        </form>
+
+        @if (ViewBag.Hata != null)
+        {
+            <p class="text-danger mt-3 text-center">@ViewBag.Hata</p>
+        }
+
+        <p class="text-center mt-3">
+            <a href="/Login/Kayit" class="btn btn-link text-pink">Hesabınız yok mu? Kayıt olun</a>
+        </p>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8bbd0; /* Pembe tonlarında bir arka plan */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        font-weight: 600;
+        color: #e91e63; /* Pembe tonları */
+    }
+
+    .card {
+        border: 1px solid #f48fb1;
+        border-radius: 12px;
+        background-color: #fce4ec; /* Açık pembe */
+    }
+
+    .btn-pink {
+        background-color: #e91e63; /* Pembe buton */
+        color: white;
+        border: none;
+    }
+
+        .btn-pink:hover {
+            background-color: #d81b60; /* Daha koyu pembe tonunda hover efekti */
+        }
+
+    .btn-link {
+        color: #e91e63;
+    }
+
+        .btn-link:hover {
+            text-decoration: underline;
+            color: #c2185b;
+        }
+</style>

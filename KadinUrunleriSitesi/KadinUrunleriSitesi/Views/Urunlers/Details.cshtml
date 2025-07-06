@@ -1,0 +1,79 @@
+@model KadinUrunleriSitesi.Models.Urunler
+
+@{
+    ViewData["Title"] = "Ürün Detay";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="text-center mb-4">@Html.DisplayFor(model => model.UrunAdi)</h1>
+            <img src="@Model.ResimUrl" alt="Ürün Resmi" class="img-fluid rounded" style="max-width: 500px; height: auto;" />
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Ürün Detayları</h5>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Aciklama)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Aciklama)
+                        </dd>
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.EklenmeTarihi)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.EklenmeTarihi)
+                        </dd>
+                        <dt class="col-sm-4">
+                            Kategori
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Kategori.KategoriAdi)
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a class="btn btn-info" asp-action="Edit" asp-route-id="@Model?.UrunId">Düzenle</a>
+        <a class="btn btn-secondary" asp-action="Index">Listeye Dön</a>
+    </div>
+</div>
+
+<style>
+    .container {
+        background-color: #f8bbd0;
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .card {
+        background-color: #fce4ec;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
+
+    .btn-info {
+        background-color: #e91e63;
+        border: none;
+    }
+
+        .btn-info:hover {
+            background-color: #d81b60;
+        }
+
+    .btn-secondary {
+        background-color: #9c27b0;
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #8e24aa;
+        }
+</style>

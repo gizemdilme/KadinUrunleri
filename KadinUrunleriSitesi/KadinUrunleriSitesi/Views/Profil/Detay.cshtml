@@ -1,0 +1,21 @@
+﻿@model Kullanicilar
+
+@{
+    ViewData["Title"] = "Kullanıcı Profili";
+    var profilResmi = string.IsNullOrEmpty(Model.ProfilFotoUrl) ? "/images/default-profile.png" : Model.ProfilFotoUrl;
+}
+
+<div class="container mt-4">
+    <div class="card text-center shadow p-4" style="max-width: 600px; margin: auto;">
+        <img src="@profilResmi" class="rounded-circle mx-auto mb-3" width="120" height="120" />
+        <h3>@Model.AdSoyad</h3>
+        <p class="text-muted">@Model.Email</p>
+        <p>Kayıt Tarihi: @(Model.KayitTarihi?.ToString("dd.MM.yyyy") ?? "Bilinmiyor")</p>
+
+        <!-- Arkadaşlık Butonu -->
+        <form asp-controller="Arkadaslik" asp-action="IstekGonder" method="post">
+            <input type="hidden" name="alanId" value="@Model.KullaniciId" />
+            <button type="submit" class="btn btn-outline-success">Arkadaşlık İsteği Gönder</button>
+        </form>
+    </div>
+</div>

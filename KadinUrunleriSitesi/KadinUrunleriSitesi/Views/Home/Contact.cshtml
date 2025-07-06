@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "İletişim";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 fw-bold" style="color:#c2185b;">Bize Ulaşın</h2>
+
+    <!-- Harita Kartı -->
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0 rounded-4">
+                <div class="card-body p-2">
+                    <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3216.239026258796!2d34.63626611527287!3d36.8121039799534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15278e4a43d22c6f%3A0x5a2c396d49173fbd!2zTWVyc2luLFR1cmtpeWU!5e0!3m2!1str!2str!4v1686598750339"
+                                style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                    <p class="text-center small mt-2 text-muted"><i class="bi bi-geo-alt-fill text-danger"></i> Mersin, Türkiye</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Başarı Mesajı -->
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success text-center fw-semibold" role="alert">
+            @TempData["Message"]
+        </div>
+    }
+
+    <!-- Form Kartı -->
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-body p-5">
+                    <p class="text-center mb-4 text-muted">
+                        💌 Görüş, öneri veya sorularınız için formu doldurabilirsiniz.
+                        Ekibimiz en kısa sürede sizinle iletişime geçecektir.
+                    </p>
+
+                    <form method="post" asp-action="Contact">
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-person-fill text-secondary me-1"></i>Adınız</label>
+                            <input type="text" name="AdSoyad" class="form-control rounded-3" required placeholder="Adınızı girin" />
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-envelope-fill text-secondary me-1"></i>E-posta</label>
+                            <input type="email" name="Email" class="form-control rounded-3" required placeholder="E-posta adresiniz" />
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold"><i class="bi bi-chat-left-text-fill text-secondary me-1"></i>Mesajınız</label>
+                            <textarea name="Mesaj" rows="6" class="form-control rounded-3" required placeholder="Mesajınızı yazın..."></textarea>
+                        </div>
+                        <button type="submit" class="btn w-100 text-white fw-bold rounded-pill" style="background-color:#c2185b;">
+                            <i class="bi bi-send me-2"></i> Gönder
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

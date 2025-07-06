@@ -1,0 +1,85 @@
+@model IEnumerable<KadinUrunleriSitesi.Models.Kullanicilar>
+
+@{
+    ViewData["Title"] = "Kullanıcı Yönetimi";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Kullanıcı Yönetimi</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Dashboard</a></li>
+        <li class="breadcrumb-item active">Kullanıcılar</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-users me-1"></i>
+            Kullanıcı Listesi
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="kullanicilarTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ad Soyad</th>
+                            <th>Email</th>
+                            <th>Kayıt Tarihi</th>
+                            <th>Admin</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var kullanici in Model)
+                        {
+                            <tr>
+                                <td>@kullanici.KullaniciId</td>
+                                <td>@kullanici.AdSoyad</td>
+                                <td>@kullanici.Email</td>
+                                <td>@(kullanici.KayitTarihi?.ToString("dd.MM.yyyy") ?? "-")</td>
+                                <td>
+                                    <form asp-action="KullaniciDuzenleAdmin" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@kullanici.KullaniciId" />
+                                        <div class="mb-3">
+                                            <select class="form-select" name="isAdmin" onchange="this.form.submit()">
+                                                @if (kullanici.IsAdmin == false)
+                                                {
+                                                    <option value="false" selected>Hayır</option>
+                                                    <option value="true">Evet</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="false">Hayır</option>
+                                                    <option value="true" selected>Evet</option>
+                                                }
+                                            </select>
+                                        </div>
+                                    </form>
+                                </td>
+
+                                <td>
+                                    <a asp-action="KullaniciDetay" asp-route-id="@kullanici.KullaniciId" class="btn btn-info btn-sm">
+                                        <i class="fas fa-eye"></i> Detay
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#kullanicilarTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.4/i18n/tr.json'
+                }
+            });
+        });
+    </script>
+}

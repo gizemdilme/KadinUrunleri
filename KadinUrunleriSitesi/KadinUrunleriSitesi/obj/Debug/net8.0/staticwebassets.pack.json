@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KadinUrunleriSitesi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KadinUrunleriSitesi.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\Pembe.png",
+      "PackagePath": "staticwebassets\\images\\Pembe.png"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\comments\\yorum1.jpg",
+      "PackagePath": "staticwebassets\\images\\comments\\yorum1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\comments\\yorum2.jpg",
+      "PackagePath": "staticwebassets\\images\\comments\\yorum2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\comments\\yorum3.jpg",
+      "PackagePath": "staticwebassets\\images\\comments\\yorum3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\comments\\yorum4.jpg",
+      "PackagePath": "staticwebassets\\images\\comments\\yorum4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\comments\\yorum5.jpg",
+      "PackagePath": "staticwebassets\\images\\comments\\yorum5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\comments\\yorum6.jpg",
+      "PackagePath": "staticwebassets\\images\\comments\\yorum6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\pembel.png",
+      "PackagePath": "staticwebassets\\images\\pembel.png"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\110000186030162.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\110000186030162.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\2c41cd7d-5157-4594-b1fe-0b3c7e882260_ysl-libre-kadin-parfum-edp-intense-90-ml-edp-parfum-ysl-33953-74-B.png",
+      "PackagePath": "staticwebassets\\images\\products\\2c41cd7d-5157-4594-b1fe-0b3c7e882260_ysl-libre-kadin-parfum-edp-intense-90-ml-edp-parfum-ysl-33953-74-B.png"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\4624e8ec-951a-46b4-9f3d-83ec8827b5e0_images (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\4624e8ec-951a-46b4-9f3d-83ec8827b5e0_images (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\600bb35f-dc27-40f2-9e77-c992dfa90eee_dogal-sac-bakim-serumu-100-ml-sac-bakim-evvahe-dogal-1440-14-B.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\600bb35f-dc27-40f2-9e77-c992dfa90eee_dogal-sac-bakim-serumu-100-ml-sac-bakim-evvahe-dogal-1440-14-B.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\b89a54a1-15a6-4d58-be16-989d14c45021_30110082-note-flawless-eyeshadow-02-go-49635b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b89a54a1-15a6-4d58-be16-989d14c45021_30110082-note-flawless-eyeshadow-02-go-49635b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\c10b0b59-b965-429b-915a-e8358e0c984d_yildiz-tasarimli-gumus-renkli-kolye-ku-aad5-f.webp",
+      "PackagePath": "staticwebassets\\images\\products\\c10b0b59-b965-429b-915a-e8358e0c984d_yildiz-tasarimli-gumus-renkli-kolye-ku-aad5-f.webp"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\d15932df-1201-4cb7-9552-3756687c51c5_morfose-hair-spray-ultra-strong-sac-spreyi-400ml-160619-64-B.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\d15932df-1201-4cb7-9552-3756687c51c5_morfose-hair-spray-ultra-strong-sac-spreyi-400ml-160619-64-B.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\e932dec6-b2f8-4ebc-986c-9fbda34423cf_110000186030162.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\e932dec6-b2f8-4ebc-986c-9fbda34423cf_110000186030162.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\images (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\images (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\images.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\mat-ruj.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\mat-ruj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\yildiz-tasarimli-gumus-renkli-kolye-ku-aad5-f.webp",
+      "PackagePath": "staticwebassets\\images\\products\\yildiz-tasarimli-gumus-renkli-kolye-ku-aad5-f.webp"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\products\\ysl-libre-kadin-parfum-edp-intense-90-ml-edp-parfum-ysl-33953-74-B.png",
+      "PackagePath": "staticwebassets\\images\\products\\ysl-libre-kadin-parfum-edp-intense-90-ml-edp-parfum-ysl-33953-74-B.png"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\06cc9356-8524-4358-a68f-cf0162aaf109_background.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\06cc9356-8524-4358-a68f-cf0162aaf109_background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\2bf0d8ed-b81f-4a61-8a18-285d3d95baa8_x.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\2bf0d8ed-b81f-4a61-8a18-285d3d95baa8_x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\3b84b7aa-23b5-454e-acd4-6da3dd97f5c5_images (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\users\\3b84b7aa-23b5-454e-acd4-6da3dd97f5c5_images (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\93368ce5-1c0f-490a-a46d-0422ab7b01bb_s-0327c9742f62bf8e15e856edab302fb9a897f14c.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\93368ce5-1c0f-490a-a46d-0422ab7b01bb_s-0327c9742f62bf8e15e856edab302fb9a897f14c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\a14af41d-6501-4833-a062-6b5d0aee6bea_yı.jpeg",
+      "PackagePath": "staticwebassets\\images\\users\\a14af41d-6501-4833-a062-6b5d0aee6bea_yı.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\a29c5d0d-028b-4f24-ab53-0d3d2b0c93e1_ytYzjydsQE6qZdWfMEtSQQ.webp",
+      "PackagePath": "staticwebassets\\images\\users\\a29c5d0d-028b-4f24-ab53-0d3d2b0c93e1_ytYzjydsQE6qZdWfMEtSQQ.webp"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\admin-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\admin-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\ae1745b9-5bf9-4c7f-adac-ff3d7eea82b0_yı.jpeg",
+      "PackagePath": "staticwebassets\\images\\users\\ae1745b9-5bf9-4c7f-adac-ff3d7eea82b0_yı.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\be688af7-7c7c-4191-a277-3f8aa3dcee6b_neurovision-Seda-Genc-792x640.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\be688af7-7c7c-4191-a277-3f8aa3dcee6b_neurovision-Seda-Genc-792x640.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\images (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\users\\images (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\neurovision-Seda-Genc-792x640.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\neurovision-Seda-Genc-792x640.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\s-0327c9742f62bf8e15e856edab302fb9a897f14c.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\s-0327c9742f62bf8e15e856edab302fb9a897f14c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\user1-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user1-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\user2-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user2-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\user3-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\user3-profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\images\\users\\ytYzjydsQE6qZdWfMEtSQQ.webp",
+      "PackagePath": "staticwebassets\\images\\users\\ytYzjydsQE6qZdWfMEtSQQ.webp"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\urun-resimleri\\6924e176-0ff1-4e0b-81ee-efb8601deaa3_x.jpg",
+      "PackagePath": "staticwebassets\\urun-resimleri\\6924e176-0ff1-4e0b-81ee-efb8601deaa3_x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\urun-resimleri\\6c9e1a01-3b99-43dd-8e2d-c872b75cdb0a_Screenshot 2025-04-29 132708.png",
+      "PackagePath": "staticwebassets\\urun-resimleri\\6c9e1a01-3b99-43dd-8e2d-c872b75cdb0a_Screenshot 2025-04-29 132708.png"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\urun-resimleri\\c45b2b9f-ac04-450e-a08d-72ffdf1a0681_x.jpg",
+      "PackagePath": "staticwebassets\\urun-resimleri\\c45b2b9f-ac04-450e-a08d-72ffdf1a0681_x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\beyaz\\Desktop\\KadinUrunleriSitesi1\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\KadinUrunleriSitesi\\wwwroot\\urun-resimleri\\dfb2f146-53aa-4151-b777-ccac078aede5_x.jpg",
+      "PackagePath": "staticwebassets\\urun-resimleri\\dfb2f146-53aa-4151-b777-ccac078aede5_x.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KadinUrunleriSitesi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KadinUrunleriSitesi.props",
+      "PackagePath": "build\\KadinUrunleriSitesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KadinUrunleriSitesi.props",
+      "PackagePath": "buildMultiTargeting\\KadinUrunleriSitesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KadinUrunleriSitesi.props",
+      "PackagePath": "buildTransitive\\KadinUrunleriSitesi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
